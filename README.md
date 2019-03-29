@@ -55,3 +55,48 @@ window.foobar = 42
 // use lua variable
 window.foobar
 ```
+
+## [Ruby(Opal)](https://opalrb.com/)
+
+Add [Ruby language](https://opalrb.com/) support to [Iodide](https://alpha.iodide.io/). Demo notebook link: https://alpha.iodide.io/notebooks/1453/.
+
+How to use: paste this into an Iodide notebook.
+```
+%% fetch
+js: https://cdn.opalrb.com/opal/current/opal.js
+js: https://cdn.opalrb.com/opal/current/opal-parser.js
+%%js
+Opal.load('opal')
+Opal.load('opal-parser')
+%% plugin
+{
+  "languageId": "ruby",
+  "displayName": "ruby",
+  "codeMirrorMode": "ruby",
+  "keybinding": "r",
+  "url": "https://cdn.opalrb.com/opal/current/opal.js",
+  "module": "Opal",
+  "evaluator": "eval",
+  "pluginType": "language"
+}
+```
+
+Some examples of Ruby usage:
+```
+%% ruby
+[1,2,3,4].map{|d| d*2}
+%% ruby
+(1..10).map{|i| i*2}
+%% ruby
+(1..100).map{|n|
+  if (n%15).zero?
+    'FizzBuzz'
+  elsif (n%3).zero?
+    'Fizz'
+  elsif (n%5).zero?
+    'Buzz'
+  else
+    n.to_s
+  end
+}
+```

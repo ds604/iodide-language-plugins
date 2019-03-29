@@ -1,6 +1,10 @@
 # iodide-language-plugins
 
-## [Lua (Fengari)](https://fengari.io/)
+- [Lua](#lua)
+- [Ruby](#ruby)
+- [Assemplyscript](#assemblyscript)
+
+## <a name="lua">[Lua (Fengari)](https://fengari.io/)</a>
 
 Add [Lua language](https://fengari.io/) support to [Iodide](https://alpha.iodide.io/). Demo notebook link: https://alpha.iodide.io/notebooks/1416/.
 
@@ -56,7 +60,7 @@ window.foobar = 42
 window.foobar
 ```
 
-## [Ruby(Opal)](https://opalrb.com/)
+## <a name="ruby">[Ruby(Opal)](https://opalrb.com/)</a>
 
 Add [Ruby language](https://opalrb.com/) support to [Iodide](https://alpha.iodide.io/). Demo notebook link: https://alpha.iodide.io/notebooks/1453/.
 
@@ -105,7 +109,7 @@ Sample Ruby usage:
 }
 ```
 
-## [Assemblyscript](https://github.com/AssemblyScript/assemblyscript)
+## <a name="assemblyscript">[Assemblyscript](https://github.com/AssemblyScript/assemblyscript)</a>
 
 Add [Assemblyscript](https://github.com/AssemblyScript/assemblyscript) support to [Iodide](https://alpha.iodide.io/). Demo notebook link: https://alpha.iodide.io/notebooks/1460/.
 

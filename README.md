@@ -2,7 +2,7 @@
 
 - [Lua](#lua)
 - [Ruby](#ruby)
-- [Assemplyscript](#assemblyscript)
+- [Assemblyscript](#assemblyscript)
 
 ## <a name="lua">[Lua (Fengari)](https://fengari.io/)</a>
 
